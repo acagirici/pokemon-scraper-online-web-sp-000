@@ -23,7 +23,7 @@ class Pokemon
     SQL
     
     pokemon = db.execute(sql, id)
-    Pokemon.new(id, name, type, db)
+    Pokemon.new(id:, name:, type:, db:)
   end
   
 end
